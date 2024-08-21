@@ -1,0 +1,30 @@
+
+- Full managed NoSQL cloud database service 
+	- Using the DynamoDB API, applications create tables and read and write data without regard for where those tables are stored or how they’re managed. 
+- Highly available, durable, reliable
+	- DynamoDB replicates data across multiple data centers—called Availability Zones in AWS—and automatically re-replicates in the case of disk or node failures to meet stringent availability and durability requirements.
+	- Customers can also create global tables that are geo-replicated across selected Regions for disaster recovery and provide low latency access from anywhere.
+- Consistent performance
+- Low latency with single digit milliseconds
+- Multi tenant architecture
+	- DynamoDB stores data from different customers on the same physical machines to ensure high utilization of resources, enabling us to pass the cost savings to our customers.
+- Boundless scale for tables
+	- no predefined limits for the amount of data each table can store.
+- provides predictable performance
+	- DynamoDB API with GetItem and PutItem operations allows it to respond to requests with consistent low latency.
+	- DynamoDB latencies are predictable. Even as tables grow from a few megabytes to hundreds of terabytes, latencies remain stable due to the distributed nature of data placement and request routing algorithms in DynamoDB.
+- provides flexible use cases
+	- DynamoDB tables don’t have a fixed schema but instead allow each data item to contain any number of attributes with varying types, including multi-valued attributes.
+	- Tables use a key-value or document data model.
+- DynamoDB table is a collection of items, and each item is a collection of attributes. 
+- Each item is uniquely identified by a primary key.
+- The schema of the primary key is specified at the table creation time. The primary key schema contains a partition key or a partition and sort key (a composite primary key).
+- The partition key’s value is always used as an input to an internal hash function. The output from the hash function and the sort key value (if present) determines where the item will be stored.
+- Multiple items can have the same partition key value in a table with a composite primary key. However, those items must have different sort key values.
+- DynamoDB also supports secondary indexes to provide enhanced querying capability. A table can have one or more secondary indexes. A secondary index allows querying the data in the table using an alternate key, in addition to queries against the primary key.
+- DynamoDB supports ACID transactions across items without compromising the scalability, availability, and performance characteristics of DynamoDB tables.
+- A DynamoDB table is divided into multiple partitions to handle the throughput and storage requirements of the table. Each partition of the table hosts a disjoint and contiguous part of the table’s key-range. Each partition has multiple replicas distributed across different Availability Zones for high availability and durability. The replicas for a partition form a replication group.
+- DynamoDB supports strongly and eventually consistent reads.
+- The leader of the group extends its leadership using a lease mechanism. If the leader of the group is failure detected (considered unhealthy or unavailable) by any of its peers, the peer can propose a new round of the election to elect itself as the new leader. The new leader won’t serve any writes or consistent reads until the previous leader’s lease expires.
+- log replicas help DynamoDB improve its availability and durability. It only persists the write ahead log entries
+- 

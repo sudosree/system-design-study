@@ -1,0 +1,102 @@
+## Easy Problems
+- Best Time to Buy and Sell Stock
+	- One Pass Approach (Two Pointer approach)
+		1. Idea is to buy the stock with the lower price and sell the stock in the future following the buy day with the higher price
+		2. keep track of the min buy price and find the profit with the sell price following the min buy price and the min buy price
+		3. update the maxProfit with the currProfit if currProfit > maxProfit
+		4. if you encounter a lower buy price than the tracked one then update the min buy price with the lower one and repeat the steps 2 and 3
+- Valid Palindrome (Two Pointer approach)
+- Invert Binary Tree
+	- TC = O(n) -> we have visited each and every node exactly one 
+	- SC = O(n) -> the no. of function calls in the recursion stack which is proportional to the height of the tree h but if the tree is skewed then the recursion stack will contain all the nodes 
+- Balanced Binary Tree
+	- Top Down Recursion
+		- Idea - starting from root node check if the diff between the height of the child subtrees are within the range and also check if the subtrees are balanced or not
+		- TC = O(n^2) -> for every node we are doing recursive DFS to check if the child subtrees are balanced or not, recursive DFS takes O(n) time and this has to be done for all the n nodes so O(n).n = O(n^2)
+		- SC = O(n) -> in worst case the recursion call stack may contain all the nodes if the tree is skewed.
+	- Bottom Up Recursion
+		- Issue with the Top Down approach
+			- To compute the height of a node we compute the height of its left and right subtrees and this has to be done for every node and this is redundant
+		- Idea - 
+			- Compute the height of the child subtrees first then compute the height of its parent starting from leaf node
+			- first check if the subtrees are balanced or not, if they are balanced then check their height to see if the current node is balanced or not
+		- TC = O(n) -> computing the height in constant time for all the nodes
+		- SC = O(n) -> in worst case the recursion call stack may contain all the nodes if the tree is skewed.
+- Linked List Cycle (Slow and Fast pointer)
+	- Idea - Floyd's cycle finding algorithm
+- Implement Queue using Stacks
+	- Idea - use two stacks, one stack will hold all the elements in a reverse order and other stack will hold the final elements like queue
+	- 1st approach - 
+		- S1 maintains the final list of elements like queue and S2 maintains the reverse ordering of the elements
+		- Push takes O(n) operation because all the elements are pushed and popped twice except the last inserted element which is pushed and popped once
+		- Pop takes O(1)
+	- 2nd operation -
+		- S1 maintains the reverse ordering of the elements and S2 maintains the final list of elements like queue
+		- Push takes O(1) operation
+		- Pop takes O(n) operation in worst case and O(1) operation in amortized. In the worst case scenario when stack `s2` is empty, the algorithm pops n elements from stack s1 and pushes n elements to `s2`, where n is the queue size. This gives 2n operations, which is O(n). But when stack `s2` is not empty the algorithm has O(1) time complexity.
+- Lowest Common Ancestor in BST
+	- Idea - There are 4 cases
+	- 1st - If both nodes p and q lie in the left subtree then search in the left subtree
+	- 2nd - If both nodes p and q lie in the right subtree then search in the right subtree
+	- 3rd - If one of them lie in the left subtree and other in the right subtree then the LCA will be the lowest root common to them or you have found the split point
+	- 4th - If one of them is the root node then LCA is the root node itself
+- Climbing Stairs
+	- Brute Force approach
+		- take all the possible step combinations to reach the top
+		- TC = O(2^n)
+		- SC = O(n)
+	- Top Down with Memoization approach
+		- TC = O(n)
+		- SC = O(n)
+	- Bottom up approach or Tabulation approach
+		- TC = O(n)
+		- SC = O(n)
+- Longest length Palindrome
+	- Idea - even length and odd length palindrome
+	- consider the max no. of even freq of each character and with odd freq of at least one character you can create a odd length palindrome
+- Boyer Moore voting algorithm
+	- Essentially, what Boyer-Moore does is look for a suffix suf of `nums` where suf[0] is the majority element in that suffix. To do this, we  maintain a count, which is incremented whenever we see an instance of our  current candidate for majority element and decremented whenever we see  anything else. Whenever `count` equals 0, we effectively forget about  everything in `nums` up to the current index and consider the current number  as the candidate for majority element.
+- Insert Interval
+	- Idea -> There are 3 cases -
+	- Case 1 -> current interval ends before the start of the new interval
+	- Case 2 -> current interval overlaps with the new interval
+	- Case 3 -> current interval starts after the end of the new interval
+	- Case 1 (Non overlapping intervals before merging)
+		- check if the end of the current interval is less than the start of the new interval
+	- Case 2 (Overlapping intervals and merging)
+		- else if the end of the current interval is >= the start of the new interval and the end of the new interval is >= the start of the current interval
+	- Case 3 (Non overlapping intervals after merging)
+		- As we have already added the non-overlapping intervals before `newInterval` and merged overlapping ones, the remaining intervals after are guaranteed not to overlap with the newly merged interval. We simply add these remaining intervals to the result.
+- Breadth First Search
+	- common use case - find the shortest path between two vertices in a graph where all edges have equal and positive weights
+- Heap
+	- Create or Build Heap (Heapify)
+		- Using Top Down or PercolateDown approach - TC = O(n), SC = O(n)
+		- Using Bottom up or PercolateUp approach - TC = O(nlogn), SC = O(n)
+- Graph
+	- Cycle Detection
+		- Directed Graph
+			- 
+		- Undirected Graph
+- Merge Intervals
+	- Approach - Sorting
+		- Sort all the intervals by their start time
+		- then check if the current interval starts before the previous interval ends, if its the case then there is an overlap else no overlap
+		- TC = O(nlogn) + O(n) = O(nlogn)
+		- SC = O(logn) or O(n)
+- Meeting Rooms
+	- Brute Force Approach
+		- Compare every two meetings and check if they overlap with each other
+		- TC = O(n2)
+		- SC = O(1)
+	- Sorting Approach
+		- Sort all the intervals by their start time
+		- then check if the current interval overlap with the prev one
+		- TC = O(nlogn) + O(n) = O(nlogn)
+		- SC = O(logn) or O(n)
+
+## Resources
+- https://medium.com/coders-mojo/most-popular-coding-questions-company-wise-list-part-1-14ddf2a6194d
+- https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions/blob/master/revision/Revision.md
+- https://dvpr.gitbook.io/coding-interview-patterns
+- https://www.techinterviewhandbook.org/grind75

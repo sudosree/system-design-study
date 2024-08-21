@@ -1,0 +1,9 @@
+- every database system provides reliability, durability and integrity
+- It achieves it using WAL
+- append only logs. It's a log file on disk
+- writing data to disk is complicated and it takes time
+- When a machine fails what happens to the data ? 
+	- when you make any update query it is first written into the WAL and then it is flushed into the disk
+	- so that when a m/c loses power the data is not lost and the system can recover the data from WAL at any point of time
+- Reduced disk writes
+- 
