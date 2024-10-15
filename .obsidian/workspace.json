@@ -1,0 +1,331 @@
+{
+  "main": {
+    "id": "1e2892f60f75063b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d784791d0d8803fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d06cef010b2eb0a5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/URL Shortening Service 2024-09-17 14.51.37.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "2ce924ed757ee45c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "URL Shortening Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b361e0645032d81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "113d6553077fa60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Caching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f253bc32140562f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database Sharding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02b5e39ce0143ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dynamo Key Value Store.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fadca427bf4f34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study for Coding Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9815a7d719ab4cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Airline Reservation System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e56e3409ab9a90d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study for Coding Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4030024349bc5cbc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "24047e9f84116714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Handling Concurrent write requests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f087302df99448d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi Leader Replication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af8cf51ee5b57b9d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Distributed Cache 2024-09-18 23.12.14.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "c55808eaed55a1d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Service Discovery.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01d63709f5d78209",
+    "type": "split",
+    "children": [
+      {
+        "id": "796cdfa36f7ffd07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0da11553294fae7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c25d5f66b0023b95",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ce783a172fdf199",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "94aa1708177a18db",
+    "type": "split",
+    "children": [
+      {
+        "id": "68c6c183e0df706a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fe76975b968785b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study for Coding Interview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c4cd46e43389779",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study for Coding Interview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "964499e522dfe7a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5e63404023eb8a48",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study for Coding Interview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "7e56e3409ab9a90d",
+  "lastOpenFiles": [
+    "ACID Properties.md",
+    "Airline Reservation System.md",
+    "Caching.md",
+    "Service Discovery.md",
+    "Hotel Reservation Booking System (Booking.com, Agoda, Airbnb).md",
+    "Study for Coding Interview.md",
+    "Distributed Cache system design.md",
+    "Dynamo Key Value Store.md",
+    "Multi Leader Replication.md",
+    "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md",
+    "Handling Concurrent write requests.md",
+    "Excalidraw/Distributed Cache 2024-09-18 23.12.14.excalidraw.md",
+    "Database Sharding.md",
+    "System Design Basics.md",
+    "Excalidraw/URL Shortening Service 2024-09-17 14.51.37.excalidraw.md",
+    "Chat System (e.g - Whatsapp, Facebook Messenger).md",
+    "URL Shortening Service.md",
+    "Behavioral Questions.md",
+    "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
+    "Excalidraw/Untitled.canvas",
+    "Study Plan for System Design Interview.md",
+    "Experience.md",
+    "Excalidraw/Google Drive System Design 2024-08-04 09.33.03.excalidraw.md",
+    "Availability.md",
+    "Batch Processing vs Stream Processing.md",
+    "Design Google Drive or Cloud File Storage.md",
+    "Blind 75.md"
+  ]
+}

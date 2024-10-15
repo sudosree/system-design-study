@@ -1,5 +1,5 @@
 ### Functional Requirements
-- What kind of chat messages are we going to support ?
+- What kind of chat app shall we design ?
 	- one on one and group based chat
 	- Max no. of people in group based chat - 200
 - Multiple device support - both web and mobile based
@@ -14,17 +14,33 @@
 
 ### Non Functional Requirements
 - minimum latency - real time chat experience
-- highly consistent - user should see the same chat history on all of their devices
+- highly consistent - user should see the same chat history on all of their devices and for one on one chat the messages should be in order
 - lower availability can be tolerated in the interest of consistency
 
 ### Back of the envelope estimation
 - DAU = 100 million
 - on average each user will send 20 messages per day
-- no. of messages sent per day = 100 million * 20 = 2 billion
-- storage required per day = 2 billion * 1000 = 2 TB
+- no. of messages sent per day = 100 million * 20 = 2 billion messages/day
+- no. of messages per sec = 2 billion / 10^5 = 20,000 messages/sec
+- storage required per day = 2 billion * 1000 bytes = 2 TB 
 - storage required per year = 2 TB * 30 * 12 = 720 TB
 - storage required for 10 years = 720 TB * 10 = 7200 TB
 - user information, message metadata needs to be stored
+
+### Questions
+- How can you scale your system ? Given that there will be 2 billion messages/day or 20,000 messages/sec
+	- there should be multiple chat servers to process the messages, chat servers should be horizontally scalable
+- How will you store such massive amount of data ? (Database Choice)
+	- **Selected Databases**: _BigTable_ or _HBase
+- As the volume of data is huge, it's not possible to store all the data in a single instance, how will you resolve it ?
+	- using database sharding
+	- data can be sharded based on either chatId or userId
+	- sharding based on chatId - all the messages belonging to a particular chat is stored in one shard, this approach is beneficial if a user wants to see a particular chat history
+	- sharding based on userId - all the messages belonging to a particular user is stored in one shard
+- How will you achieve Availability ?
+	- replicate the shards across multiple data centres
+- How can you use caching ?
+	- cache frequently access data like user profile, recent chat history
 
 ### API Design
 - sendMessage(message_from, message_to, content)
@@ -43,11 +59,17 @@
 | user_id | name | phone_number | email |
 | ------- | ---- | ------------ | ----- |
 |         |      |              |       |
+- Chat Table
+
+| chat_id | participants | created_at |
+| ------- | ------------ | ---------- |
+|         |              |            |
+
 - Message Table (Key value store)
 
-| message_id | message_from | message_to | content | created_at | sent_at | delivery_at | read_at |
-| ---------- | ------------ | ---------- | ------- | ---------- | ------- | ----------- | ------- |
-|            |              |            |         |            |         |             |         |
+| message_id | message_from | message_to | content | created_at | sent_at | delivery_at | read_at | chat_id |
+| ---------- | ------------ | ---------- | ------- | ---------- | ------- | ----------- | ------- | ------- |
+|            |              |            |         |            |         |             |         |         |
 - Group Message Table (Key value store)
 
 | group_id | message_id | message_from | content | created_at |
@@ -124,3 +146,24 @@
 
 #### Group chat messages flow
 - see the diagram
+
+
+### Database Choice : BigTable/HBase
+- Scalability: Both BigTable and HBase can scale horizontally, which is crucial for handling the high throughput of 20,000 messages per second.
+- **Consistency**: Since strong consistency is a priority, BigTable and HBase’s ability to ensure consistency across distributed nodes works well for the chat history and message order.
+- Low Latency and High Throughput
+
+### Sharding Based on Chat ID
+- **Advantages**:
+    - It’s an efficient way to store and retrieve chat messages. Since all messages in a chat will be stored in one shard, it minimizes the overhead when querying message history.
+    - Group chats, where multiple users are involved, can benefit from sharding by chat ID to ensure all messages are kept together.
+- **Challenges**:
+    - If a single chat becomes highly active (e.g., a popular group chat), the shard for that chat could become a bottleneck. To handle this, you might need to implement **shard splitting** to rebalance hot shards.
+
+### Message Ordering
+- Message IDs should be unique and sortable by time
+- Unique ID generation strategies -
+	- 64 bit sequence number generator - Twitter's snowflake algorithm
+	- combine timestamp with user id
+	- uuid with timestamp
+

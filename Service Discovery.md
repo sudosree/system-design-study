@@ -1,0 +1,10 @@
+- a mechanism in distributed system for services to identify and communicate with other services
+- service discovery maintains a record of all your service instances in a service registry
+- service registry is a single source of truth which contains network information/location of a service instance
+- when a service joins the system it registers itself with the service registry
+- when a service leaves the system it de-registers itself with the service registry
+- only healthy services should be registered with the service registry 
+- there should be multiple instances of service registry to prevent SPOF
+- Two types of service discovery -
+- Client Side Service Discovery
+- Server Side Service Discovery

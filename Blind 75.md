@@ -1,0 +1,59 @@
+## Week 5
+- Permutations
+	- Approach - Backtracking
+	- we will start by fixing all the possible numbers in the first position, let's say we fix the first no. nums[0] in the first position of curr list and we will try to find all the possible permutations that starts with nums[0]. Then we will try to fix all the possible other no.s in the second position, let's say we fix the second no. nums[1] in the second position  of curr list and we will try to find all the possible permutations that starts with the pair (nums[0], nums[1]) and let's say we fix the third no. nums[2] in the third position of the curr list. Once we get all the possible permutations from it then we will add it to the ans list if the curr.size() == nums.length and then we bactrack. We backtrack by starting to remove the last element from the curr list.
+	- TC = O(n.n!) -> given a set of length n , permutation is n!, for 1st no. we have n options, for 2nd no. we have n-1 options and so on.  For each of the n! permutations, we need O(n) work to copy `curr` into the answer. This gives us O(n⋅n!) work.
+	- SC = O(n) -> for curr list and depth of the recursion call stack is n
+
+- Coin Change
+	- **Approach 1** - Recursion
+	- find the min no. of ways to make the given amt (say 11), coins = [1,2,5]
+	- to make the amt 11, i have three choices (1,2,5), if I choose 1 then the problem is reduced to a new subproblem i.e find the min no. of ways to make the amt 10
+	- if I choose 2 then the problem is reduced to the subproblem i.e find the min no. of ways to make the amt 9
+	- if I choose 5 then the problem is reduced to the subproblem i.e find the min no. of ways to make the amt 6
+	- min no. of coins reqd. to make the amt 11 minCount(11) = 1 + min(minCount(10), minCount(9), minCount(6))
+	- if the amount is 0 then you don't need to select any coins, you found the solution (base case)
+	- if the amount is negative then you can't select any coins as you can't make a negative amt (base case)
+	- TC = O(S^n) where S is the amount and n is the no. of denominations, for every S subproblems we have n choices
+	- SC = O(S) the depth of the recursion tree is S
+	- **Approach 2** - Recursion with Memoization
+	- there are repeated subproblems, cache those subproblems
+	- TC = O(S.n) for every S subproblems we have n iterations
+	- SC = O(S) -> memo array
+	- **Approach 3** - DP
+	- Function -> dp[i] - stores the min no. of coins required to make the amount i
+	- Recurrence relation -> dp[i] = 1 + min(dp[i], dp[i-coin])
+	- Base case -> dp[0] = 0
+- Subsets
+	- Approach - Backtracking
+	- TC = O(n.2^n) -> for a set of n elements there are 2^n and each of them takes O(n) time to copy to the output list
+	- SC = O(n) -> depth of the recursion tree and the length of the current subset combination
+- Right side view of a binary tree
+	- Idea - need to find the last element at every level, so BFS should be used here
+	- Approach 1
+		- Maintain two levels list - currLevel and nextLevel, curr Level will hold all the nodes in the current level and next level will hold all the children nodes of each node in the current level and take the last element of the current level and add it to the result list. Once all the children nodes are added in the next level for all the nodes in the current level, set current level to next level
+		- TC = O(n) - each node is visited exactly once 
+		- SC = O(n) - because of the two lists currlevel and nextlevel 
+	- Approach 2
+		- Use queue and keep track of the current level size, iterate through the nodes at the current level and check if is the last node in the curr level, if yes then add it to the list and start adding the node's left and right child to the queue
+		- TC = O(n), SC = O(n)
+- Longest Palindromic Substring
+	- Approach - DP
+	- Idea - If substring S(i+1,j-1) is a palindrome then we can say that substring S(i,j) is a palindrome if S(i) == S(j) && S(i+1,j-1) is a palindrome
+	- dp[i][j] -> represents if a substring from i to j is a palindrome or not
+	- dp[i][j] will be palindrome if s[i] == s[j] && dp[i+1][j-1] is a palindrome else not
+- Unique Possible Paths
+	- Recursive solution
+		- if the robot is in the first row (m = 1) there is only one path to reach the cell (m-1,n-1) (going right)
+		- if the robot is in the first col (n = 1) there is only one path to reach the cell (m-1,n-1) (going down)
+		- to reach cell (m-1, n-1) a robot can either come from the top cell (m-1, n) or it can come from the left cell (m, n-1)
+		- totalUniquePath(m-1, n-1) = totalUniquePath(m-1, n) + totalUniquePath(m, n-1)
+		- TC = O(2^m+n), each cell has 2 choices and the depth of the recursion tree is m+n
+		- SC = O(m+n)
+	- DP solution
+		- dp(i)(j) -> denotes the no. of possible unique paths to reach the cell (i,j)
+		- to calculate dp(i)(j) we need to know the no. of possible unique paths to reach the top cell (i-1, j) and the left cell (i, j-1)
+		- dp(i)(j) = dp(i-1)(j) + dp(i)(j-1)
+		- if the robot is in the first row there is only one way to reach the cell dp(0,j) = dp(0,j-1)
+		- if the robot is in the first col there is only one way to reach the cell dp(i,0) = dp(i-1,0)
+		- TC = O(m.n), SC = O(m.n)

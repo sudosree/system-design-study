@@ -12,7 +12,9 @@
 - Balanced Binary Tree
 	- Top Down Recursion
 		- Idea - starting from root node check if the diff between the height of the child subtrees are within the range and also check if the subtrees are balanced or not
-		- TC = O(n^2) -> for every node we are doing recursive DFS to check if the child subtrees are balanced or not, recursive DFS takes O(n) time and this has to be done for all the n nodes so O(n).n = O(n^2)
+		- TC = O(n^2) -> for every node we are doing recursive DFS to check if the child subtrees are balanced or not, recursive DFS takes O(n) time and this has to be done for all the n nodes so O(n).n = O(n^2) in the worst case if the tree is skewed
+		- as for every node n, height will be computed n times if the tree is skewed since height is bounded by O(n).
+		- For balanced tree, TC = O(nlogn) - as for every node n, height will be computed log(n) times since height is bounded by O(logn)
 		- SC = O(n) -> in worst case the recursion call stack may contain all the nodes if the tree is skewed.
 	- Bottom Up Recursion
 		- Issue with the Top Down approach
@@ -22,6 +24,22 @@
 			- first check if the subtrees are balanced or not, if they are balanced then check their height to see if the current node is balanced or not
 		- TC = O(n) -> computing the height in constant time for all the nodes
 		- SC = O(n) -> in worst case the recursion call stack may contain all the nodes if the tree is skewed.
+- Binary Tree Maximum Path Sum
+	- If the max path sum passes through the root node there are four possibilities -
+	- Path starts at the root node and passes down through the left child
+	- Path starts at the root node and passes down through the right child
+	- Path involves both the left and right child
+	- Path doesn't involve any of the child, only the root node
+	- bottom up approach - first process the child subtrees then process the node
+	- First find the path sum gained by the subtree
+	- pathSumGain = max(leftGain, rightGain) + root.val
+	- Second keep track of the max path sum
+	- maxPathSum = max(maxPathSum, leftGain + rightGain + root.val)
+- Largest BST Subtree
+	- Brute Force Approach
+		- For every node in the tree check if the tree rooted at the current node is a valid BST or not. If it is a valid BST then count the no. of nodes in the tree and update the maxNodes. Else if it is not a BST then check it's left subtree and right subtree.
+		- TC = O(n^2), SC = O(n)
+	- Bottom up Approach - Postorder
 - Linked List Cycle (Slow and Fast pointer)
 	- Idea - Floyd's cycle finding algorithm
 - Implement Queue using Stacks
@@ -94,9 +112,37 @@
 		- then check if the current interval overlap with the prev one
 		- TC = O(nlogn) + O(n) = O(nlogn)
 		- SC = O(logn) or O(n)
-
+- Longest Repeating Character Replacement
+	- Brute Force Approach
+		- Generate all the possible substrings
+		- for each substring find the max freq character as all the other characters should be replaced by this character
+		- check if the count of other characters is less or equal to k i.e.(subStrLen - maxFreqCount <= k)
+		- if it is then it's a valid substring and record its length and update the maxLength seen so far
+		- do this for every susbtring
+		- TC = O(n^3), SC = O(n)
+	- Binary Search and Sliding Window
+		- Find if a substring of given length is valid or not 
+		- TC = O(nlogn), SC = O(m) (no. of unique characters in freq array)
+	- Sliding Window (Fast)
+		- Check if a substring is valid or not, if a substring of length l is valid then increase its length by moving the window towards right and check if a substring of length l+1 is valid or not
+		- If a substring of length l+1 is not valid then shrink the window by moving the window towards right (move left ptr towards right) to make the length l which was the last valid window length, now the substring of length l might still be invalid but we don't need to shrink the window again as we are only interested in larger windows so we keep on increasing the window size
+- Course Schedule
+	- Intuition - check if a cycle exists in a directed graph
+	- How to check ????
+		- If there is a cycle there must be a back edge connecting a node to one of it's ancestor 
+		- How do we know that a node's neighbor is an ancestor ?
+		- If a node's neighbor has not yet been visited it cannot be an ancestor, it's a child node else it may or may not be an ancestor
+		- If a node's neighbor is an ancestor that means we have visited this node before in the DFS traversal then visited other nodes and then visited a node that has a back edge connects to this ancestor node. This ancestor node will be in the current DFS recursion call stack as we are still exploring the current branch of this ancestor node.
+		- If a node's neighbor is not an ancestor that means it has been visited before from other branch and it's not in the recursion call stack in the current branch.
+- Zero One Knapsack Problem
+	- every element has two choices - select or reject
+	- Element of choice - select or reject
+	- DP state - dp[i][j]  -> returns the max profit till index i and with weight j
+	- Recurrence relation - 
 ## Resources
 - https://medium.com/coders-mojo/most-popular-coding-questions-company-wise-list-part-1-14ddf2a6194d
 - https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions/blob/master/revision/Revision.md
 - https://dvpr.gitbook.io/coding-interview-patterns
 - https://www.techinterviewhandbook.org/grind75
+- https://leetcode.com/problems/permutations/solutions/18239/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partioning/
+- 
