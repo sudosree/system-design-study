@@ -35,6 +35,7 @@
 - storage system returns the data to the application
 - and then the application sends a write request to write the data into the cache for future reads
 - Pros -
+	- simple and efficient
 	- system can tolerate cache failures as it can still read from the storage
 	- cache and storage can have different data models
 - Cons -
@@ -51,12 +52,12 @@
 - storage system returns the data to the cache
 - data is written to the cache and then it is returned to the application
 - Pros -
-	- application only needs to communicate with cache
+	- application only needs to communicate with cache, simplifying the application code
 	- useful for read heavy system
 - Cons -
 	- cache and storage system should have same data model
 	- system can not tolerate cache failures as request first goes to cache
-	- data consistency issue -> can be solved using TTL or some write strategies
+	- data consistency issue -> can be solved using TTL or with some write strategies
 
 
 ### Cache writing strategies

@@ -7,7 +7,7 @@
 - guarantees that either the entire transaction succeeds or the entire transaction fails
 - if all the operations within a transaction are successfully completed then the entire transaction is considered as successful
 - and if there is any failure in a transaction then the entire transaction fails or aborts or rollback
-- e.g - Banking system
+- e.g - Banking system, reservation system, ecommerce ordering system
 
 ### Consistency
 - guarantees that the database remains in a consistent state before and after a transaction

@@ -47,7 +47,7 @@
 			- use version vector to implement it
 			- prevents application from updating the stale data
 			- no deadlock
-			- useful when data contention is low
+			- useful when data contention is low and there is less conflict
 		- Cons
 			- not useful when data contention is high
 

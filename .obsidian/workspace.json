@@ -8,41 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d06cef010b2eb0a5",
+            "id": "a6d5b0bd684a6eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Message Queues.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Message Queues"
+            }
+          },
+          {
+            "id": "69e3c8d9573e4503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Transactions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Transactions"
+            }
+          },
+          {
+            "id": "c1f30d65d858b360",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/URL Shortening Service 2024-09-17 14.51.37.excalidraw.md"
-              }
+                "file": "Excalidraw/Drawing 2024-11-30 17.12.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-30 17.12.01.excalidraw"
             }
           },
           {
-            "id": "2ce924ed757ee45c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "URL Shortening Service.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b361e0645032d81b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design Basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "113d6553077fa60e",
+            "id": "aa58030b6604fbd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,81 +56,69 @@
                 "file": "Caching.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Caching"
             }
           },
           {
-            "id": "f253bc32140562f4",
+            "id": "d651bc2fc2637c1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Sharding.md",
+                "file": "Distributed Cache system design.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Cache system design"
             }
           },
           {
-            "id": "02b5e39ce0143ba2",
+            "id": "2b632378aecadc1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamo Key Value Store.md",
+                "file": "Rate Limiting.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Rate Limiting"
             }
           },
           {
-            "id": "2fadca427bf4f34e",
+            "id": "047efcd721a6720f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study for Coding Interview.md",
+                "file": "Cosmos DB.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Cosmos DB"
             }
           },
           {
-            "id": "9815a7d719ab4cd5",
+            "id": "7e3b6361cc4b359c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Airline Reservation System.md",
+                "file": "Kafka.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Kafka"
             }
           },
           {
-            "id": "7e56e3409ab9a90d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study for Coding Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4030024349bc5cbc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "24047e9f84116714",
+            "id": "5a0e2b83a3e44b27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -132,41 +126,129 @@
                 "file": "Handling Concurrent write requests.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Handling Concurrent write requests"
             }
           },
           {
-            "id": "2f087302df99448d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi Leader Replication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af8cf51ee5b57b9d",
+            "id": "74a1268726aac61f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Distributed Cache 2024-09-18 23.12.14.excalidraw.md"
-              }
+                "file": "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Handling concurrent write requests 2024-08-18 12.11.49.excalidraw"
             }
           },
           {
-            "id": "c55808eaed55a1d7",
+            "id": "fc26fec50d6b7293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Service Discovery.md",
+                "file": "Message Queues.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Message Queues"
+            }
+          },
+          {
+            "id": "f82a80de94a0c198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Lock.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Lock"
+            }
+          },
+          {
+            "id": "1a64f8893a8a5f09",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Notification System Design 2024-08-10 15.20.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Notification System Design 2024-08-10 15.20.34.excalidraw"
+            }
+          },
+          {
+            "id": "5048c5ce76a20311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Google Drive or Cloud File Storage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Design Google Drive or Cloud File Storage"
+            }
+          },
+          {
+            "id": "a2635ea2ea5b6831",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Facebook News Feed 2024-11-12 19.52.23.excalidraw"
+            }
+          },
+          {
+            "id": "4800cbdb51fd8586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design Basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System Design Basics"
+            }
+          },
+          {
+            "id": "4058dca8e8a7253c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databases"
+            }
+          },
+          {
+            "id": "0da6f679414f9777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ACID Properties.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACID Properties"
             }
           }
         ],
@@ -190,7 +272,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -205,7 +289,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -213,14 +299,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 390.5
   },
   "right": {
     "id": "94aa1708177a18db",
@@ -236,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study for Coding Interview.md",
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +332,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Facebook News Feed 2024-11-12 19.52.23.excalidraw"
             }
           },
           {
@@ -253,10 +343,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study for Coding Interview.md",
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Facebook News Feed 2024-11-12 19.52.23.excalidraw"
             }
           },
           {
@@ -267,7 +359,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -276,8 +370,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study for Coding Interview.md"
-              }
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Facebook News Feed 2024-11-12 19.52.23.excalidraw"
             }
           }
         ]
@@ -298,34 +394,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7e56e3409ab9a90d",
+  "active": "5a0e2b83a3e44b27",
   "lastOpenFiles": [
-    "ACID Properties.md",
-    "Airline Reservation System.md",
-    "Caching.md",
-    "Service Discovery.md",
-    "Hotel Reservation Booking System (Booking.com, Agoda, Airbnb).md",
-    "Study for Coding Interview.md",
-    "Distributed Cache system design.md",
-    "Dynamo Key Value Store.md",
-    "Multi Leader Replication.md",
     "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md",
     "Handling Concurrent write requests.md",
+    "Kafka.md",
+    "Message Queues.md",
+    "Cosmos DB.md",
     "Excalidraw/Distributed Cache 2024-09-18 23.12.14.excalidraw.md",
-    "Database Sharding.md",
+    "Distributed Cache system design.md",
+    "Rate Limiting.md",
+    "Caching.md",
+    "Distributed Lock.md",
+    "Excalidraw/Drawing 2024-11-30 17.12.01.excalidraw.md",
+    "Distributed Transactions.md",
+    "ACID Properties.md",
+    "Databases.md",
     "System Design Basics.md",
-    "Excalidraw/URL Shortening Service 2024-09-17 14.51.37.excalidraw.md",
-    "Chat System (e.g - Whatsapp, Facebook Messenger).md",
-    "URL Shortening Service.md",
-    "Behavioral Questions.md",
-    "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
-    "Excalidraw/Untitled.canvas",
-    "Study Plan for System Design Interview.md",
-    "Experience.md",
-    "Excalidraw/Google Drive System Design 2024-08-04 09.33.03.excalidraw.md",
-    "Availability.md",
-    "Batch Processing vs Stream Processing.md",
     "Design Google Drive or Cloud File Storage.md",
-    "Blind 75.md"
+    "Excalidraw/Notification System Design 2024-08-10 15.20.34.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.png",
+    "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.png",
+    "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.png",
+    "Database Sharding.md",
+    "Notification System.md",
+    "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
+    "Service Discovery.md",
+    "Dynamo Key Value Store.md",
+    "Multi Leader Replication.md",
+    "Excalidraw/Untitled.canvas"
   ]
 }
