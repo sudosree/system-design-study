@@ -70,6 +70,7 @@
 | message_id | message_from | message_to | content | created_at | sent_at | delivery_at | read_at | chat_id |
 | ---------- | ------------ | ---------- | ------- | ---------- | ------- | ----------- | ------- | ------- |
 |            |              |            |         |            |         |             |         |         |
+|            |              |            |         |            |         |             |         |         |
 - Group Message Table (Key value store)
 
 | group_id | message_id | message_from | content | created_at |
