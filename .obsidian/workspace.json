@@ -4,20 +4,211 @@
     "type": "split",
     "children": [
       {
-        "id": "4112f6347adc27d3",
+        "id": "eb4b18e28ca6a9bc",
         "type": "tabs",
         "children": [
           {
-            "id": "6c7d0beeea1db252",
+            "id": "1e8b124c87ee4486",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/opportunity-module-2025-01-31-1116.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "opportunity-module-2025-01-31-1116"
+            }
+          },
+          {
+            "id": "65fd13866978a0e7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Facebook News Feed 2024-11-12 19.52.23.excalidraw"
+            }
+          },
+          {
+            "id": "f37a7812e89e3b43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Behavioral Questions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Behavioral Questions"
+            }
+          },
+          {
+            "id": "b30f86130ca16e4d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Top K Youtube Videos 2025-05-06 14.24.39.excalidraw"
+            }
+          },
+          {
+            "id": "74856c4f6c47a7cf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ad-click-aggregator 2025-05-07 18.05.20.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ad-click-aggregator 2025-05-07 18.05.20.excalidraw"
+            }
+          },
+          {
+            "id": "dbcfc75b191a368a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/metrics-monitoring-alerting 2025-05-08 16.29.58.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "metrics-monitoring-alerting 2025-05-08 16.29.58.excalidraw"
+            }
+          },
+          {
+            "id": "211ebfbcf7f1a45c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chat System (e.g - Whatsapp, Facebook Messenger).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chat System (e.g - Whatsapp, Facebook Messenger)"
+            }
+          },
+          {
+            "id": "9fb2ec36f11a50d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "whatsapp design system 2024-07-02 12.57.54.excalidraw"
+            }
+          },
+          {
+            "id": "12ce8c8416e57c95",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Autosuggest System 2025-05-18 19.13.07.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Autosuggest System 2025-05-18 19.13.07.excalidraw"
+            }
+          },
+          {
+            "id": "aea8ad42c4febede",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Facebook News Feed 2024-11-12 19.52.23.excalidraw"
+            }
+          },
+          {
+            "id": "8689f2411dcb3c7a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Facebook Live comments 2025-05-09 10.46.34.excalidraw"
+            }
+          },
+          {
+            "id": "d3e041c25ec7e3dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ACID Properties.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACID Properties"
+            }
+          },
+          {
+            "id": "7160f9528cfee7ae",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/opportunity-module-2025-01-31-1116.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "opportunity-module-2025-01-31-1116"
+            }
+          },
+          {
+            "id": "ccb5994b9aa8a16b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/opportunity-module-2025-01-31-1116.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "opportunity-module-2025-01-31-1116"
+            }
+          },
+          {
+            "id": "ca4a6e029d5dcf5a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Distributed Job Scheduler 2025-05-07 09.38.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Distributed Job Scheduler 2025-05-07 09.38.53.excalidraw"
+            }
+          },
+          {
+            "id": "d11bc9f180d45ec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chat System (e.g - Whatsapp, Facebook Messenger).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chat System (e.g - Whatsapp, Facebook Messenger)"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -36,7 +227,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -73,7 +265,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 381.5
   },
   "right": {
     "id": "94aa1708177a18db",
@@ -159,37 +351,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6c7d0beeea1db252",
+  "active": "b30f86130ca16e4d",
   "lastOpenFiles": [
-    "ACID Properties.md",
-    "Databases.md",
-    "System Design Basics.md",
+    "Untitled.canvas",
+    "Excalidraw/Top K Product Sales 2025-05-21 22.22.33.excalidraw.md",
+    "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md",
     "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
-    "Design Google Drive or Cloud File Storage.md",
-    "Excalidraw/Notification System Design 2024-08-10 15.20.34.excalidraw.md",
-    "Distributed Lock.md",
-    "Message Queues.md",
-    "Excalidraw/Handling concurrent write requests 2024-08-18 12.11.49.excalidraw.md",
+    "Excalidraw/Autosuggest System 2025-05-18 19.13.07.excalidraw.md",
     "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
-    "Distributed Transactions.md",
-    "Excalidraw/Drawing 2024-11-30 17.12.01.excalidraw.md",
-    "Caching.md",
-    "Distributed Cache system design.md",
-    "Rate Limiting.md",
-    "Cosmos DB.md",
-    "Kafka.md",
+    "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md",
     "Chat System (e.g - Whatsapp, Facebook Messenger).md",
-    "Handling Concurrent write requests.md",
-    "Excalidraw/Distributed Cache 2024-09-18 23.12.14.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.md",
+    "Excalidraw/Distributed Job Scheduler 2025-05-07 09.38.53.excalidraw.md",
+    "Notification System.md",
+    "Excalidraw/metrics-monitoring-alerting 2025-05-08 16.29.58.excalidraw.md",
+    "Excalidraw/ad-click-aggregator 2025-05-07 18.05.20.excalidraw.md",
+    "ACID Properties.md",
+    "Excalidraw/Notification System Design 2024-08-10 15.20.34.excalidraw.md",
+    "Behavioral Questions.md",
+    "Excalidraw/opportunity-module-2025-01-31-1116.excalidraw",
+    "Excalidraw/Drawing 2025-03-11 11.44.25.excalidraw.md",
+    "Excalidraw/Uber 2025-05-03 12.07.46.excalidraw.md",
     "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.png",
     "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.png",
     "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.png",
-    "Database Sharding.md",
-    "Notification System.md",
-    "Service Discovery.md",
-    "Excalidraw/Untitled.canvas"
+    "Excalidraw/job-scheduler 2025-05-09 17.48.12.excalidraw.md",
+    "Excalidraw/Inventory System Design LLD 2025-03-26 13.48.30.excalidraw.md",
+    "Excalidraw/Ticketmaster 2025-03-26 19.33.17.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-30 17.12.01.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.md",
+    "Excalidraw/Hotel Reservation System Design 2024-06-21 13.37.17.excalidraw.md",
+    "Excalidraw/Movie Ticket Booking LLD 2025-03-24 18.52.40.excalidraw.md",
+    "Excalidraw/Untitled.canvas",
+    "Excalidraw/opportunity-module-2025-01-31-1116(3).excalidraw"
   ]
 }

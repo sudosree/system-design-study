@@ -64,7 +64,7 @@ And I believe working here will give me the opportunity to collaborate with tale
 	- platform that surfaces prioritized potential opportunities for walmart merchants and connects them to the relevant information and actions for those opportunities.
 	- helped merchants to improve their business performance, save time and prioritize their work
 	- merchants can take actions on opportunities in the workspace
-	- user base - 500
+	- user base - 1000
 - Why ????
 	- initially Merchants don’t have a way to view the opportunities that are impacting their business and what actions they need to take on those opportunities to improve their business
 	- as a result they had to do a lot of manual work - spend a lot of time pulling data, needs to know which items falls into which opportunities, perform the root cause analysis and then take actions
