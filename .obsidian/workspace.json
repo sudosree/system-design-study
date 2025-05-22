@@ -58,6 +58,18 @@
             }
           },
           {
+            "id": "52ec9b971c3fc230",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Design ecommerce system 2025-05-22 16.47.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Design ecommerce system 2025-05-22 16.47.11.excalidraw"
+            }
+          },
+          {
             "id": "74856c4f6c47a7cf",
             "type": "leaf",
             "state": {
@@ -208,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -351,11 +363,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b30f86130ca16e4d",
+  "active": "d0da11553294fae7",
   "lastOpenFiles": [
+    "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md",
+    "Excalidraw/Design ecommerce system 2025-05-22 16.47.11.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Top K Product Sales 2025-05-21 22.22.33.excalidraw.md",
-    "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md",
     "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
     "Excalidraw/Autosuggest System 2025-05-18 19.13.07.excalidraw.md",
     "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
