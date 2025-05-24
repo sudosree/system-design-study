@@ -46,18 +46,6 @@
             }
           },
           {
-            "id": "b30f86130ca16e4d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Top K Youtube Videos 2025-05-06 14.24.39.excalidraw"
-            }
-          },
-          {
             "id": "52ec9b971c3fc230",
             "type": "leaf",
             "state": {
@@ -67,6 +55,54 @@
               },
               "icon": "excalidraw-icon",
               "title": "Design ecommerce system 2025-05-22 16.47.11.excalidraw"
+            }
+          },
+          {
+            "id": "dd01478e03426718",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Inventory Management 2025-05-24 12.24.15.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Inventory Management 2025-05-24 12.24.15.excalidraw"
+            }
+          },
+          {
+            "id": "62453d8474d9e0d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Hotel Reservation System Design 2024-06-21 13.37.17.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Hotel Reservation System Design 2024-06-21 13.37.17.excalidraw"
+            }
+          },
+          {
+            "id": "f4afa9c0fc66e988",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Distributed Cart System 2025-05-23 17.48.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Distributed Cart System 2025-05-23 17.48.09.excalidraw"
+            }
+          },
+          {
+            "id": "8689f2411dcb3c7a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Facebook Live comments 2025-05-09 10.46.34.excalidraw"
             }
           },
           {
@@ -129,30 +165,6 @@
               },
               "icon": "excalidraw-icon",
               "title": "Autosuggest System 2025-05-18 19.13.07.excalidraw"
-            }
-          },
-          {
-            "id": "aea8ad42c4febede",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Facebook News Feed 2024-11-12 19.52.23.excalidraw"
-            }
-          },
-          {
-            "id": "8689f2411dcb3c7a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Facebook Live comments 2025-05-09 10.46.34.excalidraw"
             }
           },
           {
@@ -220,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -363,16 +375,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d0da11553294fae7",
+  "active": "f4afa9c0fc66e988",
   "lastOpenFiles": [
-    "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md",
     "Excalidraw/Design ecommerce system 2025-05-22 16.47.11.excalidraw.md",
+    "Excalidraw/Inventory Management 2025-05-24 12.24.15.excalidraw.md",
+    "Excalidraw/Distributed Cart System 2025-05-23 17.48.09.excalidraw.md",
+    "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md",
+    "Excalidraw/Hotel Reservation System Design 2024-06-21 13.37.17.excalidraw.md",
+    "Excalidraw/Autosuggest System 2025-05-18 19.13.07.excalidraw.md",
+    "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
+    "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
+    "Untitled 1.md",
+    "Excalidraw/Top K Youtube Videos 2025-05-06 14.24.39.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Top K Product Sales 2025-05-21 22.22.33.excalidraw.md",
-    "Excalidraw/Facebook News Feed 2024-11-12 19.52.23.excalidraw.md",
-    "Excalidraw/Autosuggest System 2025-05-18 19.13.07.excalidraw.md",
-    "Excalidraw/whatsapp design system 2024-07-02 12.57.54.excalidraw.md",
-    "Excalidraw/Facebook Live comments 2025-05-09 10.46.34.excalidraw.md",
     "Chat System (e.g - Whatsapp, Facebook Messenger).md",
     "Excalidraw/Distributed Job Scheduler 2025-05-07 09.38.53.excalidraw.md",
     "Notification System.md",
@@ -392,10 +408,6 @@
     "Excalidraw/Ticketmaster 2025-03-26 19.33.17.excalidraw.md",
     "Excalidraw/Drawing 2024-11-30 17.12.01.excalidraw.md",
     "Excalidraw/Drawing 2024-11-27 17.27.29.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 17.11.40.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 16.27.19.excalidraw.md",
-    "Excalidraw/Hotel Reservation System Design 2024-06-21 13.37.17.excalidraw.md",
-    "Excalidraw/Movie Ticket Booking LLD 2025-03-24 18.52.40.excalidraw.md",
     "Excalidraw/Untitled.canvas",
     "Excalidraw/opportunity-module-2025-01-31-1116(3).excalidraw"
   ]
